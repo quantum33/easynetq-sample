@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <AssemblyName>EasyNetQSample.Domain</AssemblyName>
+        <RootNamespace>EasyNetQSample.Domain</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="EasyNetQ" Version="5.6.0" />
+    </ItemGroup>
+
+</Project>

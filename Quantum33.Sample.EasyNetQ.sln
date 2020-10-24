@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyNetQSample.Domain", "EasyNetQSample.Domain\EasyNetQSample.Domain.csproj", "{6B3BF3FA-6AB2-4F13-B267-AA6C97D40C59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PubSub", "PubSub", "{C1410B2E-55AE-44F6-AABA-E21E83CE5305}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RPC", "RPC", "{0230230E-79BC-431F-AD81-46805EC982A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyNetQSample.Sender", "PubSub\EasyNetQSample.Sender\EasyNetQSample.Sender.csproj", "{9BEAFF67-2CCA-4684-B592-BC512445BE5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyNetQSample.Receiver", "PubSub\EasyNetQSample.Receiver\EasyNetQSample.Receiver.csproj", "{5C5630A3-F487-439E-A790-20E3FDDD2880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyNetQSample.Requester", "RPC\EasyNetQSample.Requester\EasyNetQSample.Requester.csproj", "{957A78B3-6732-43C1-9A63-F40A4D09D935}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyNetQSample.Responser", "RPC\EasyNetQSample.Responser\EasyNetQSample.Responser.csproj", "{7F9D618A-5D87-4F8F-A04F-A45A7E1C2F02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Topic", "Topic", "{EA4B66AF-C3A7-48F9-B4D0-60A996DF4CAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyNetQSample.TopicPublisher", "EasyNetQSample.TopicPublisher\EasyNetQSample.TopicPublisher.csproj", "{BF83297E-9C9B-4146-85A7-BB8DFE882190}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B3BF3FA-6AB2-4F13-B267-AA6C97D40C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B3BF3FA-6AB2-4F13-B267-AA6C97D40C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B3BF3FA-6AB2-4F13-B267-AA6C97D40C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B3BF3FA-6AB2-4F13-B267-AA6C97D40C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BEAFF67-2CCA-4684-B592-BC512445BE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BEAFF67-2CCA-4684-B592-BC512445BE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BEAFF67-2CCA-4684-B592-BC512445BE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BEAFF67-2CCA-4684-B592-BC512445BE5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C5630A3-F487-439E-A790-20E3FDDD2880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C5630A3-F487-439E-A790-20E3FDDD2880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C5630A3-F487-439E-A790-20E3FDDD2880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C5630A3-F487-439E-A790-20E3FDDD2880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957A78B3-6732-43C1-9A63-F40A4D09D935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957A78B3-6732-43C1-9A63-F40A4D09D935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957A78B3-6732-43C1-9A63-F40A4D09D935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957A78B3-6732-43C1-9A63-F40A4D09D935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F9D618A-5D87-4F8F-A04F-A45A7E1C2F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F9D618A-5D87-4F8F-A04F-A45A7E1C2F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F9D618A-5D87-4F8F-A04F-A45A7E1C2F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F9D618A-5D87-4F8F-A04F-A45A7E1C2F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF83297E-9C9B-4146-85A7-BB8DFE882190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF83297E-9C9B-4146-85A7-BB8DFE882190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF83297E-9C9B-4146-85A7-BB8DFE882190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF83297E-9C9B-4146-85A7-BB8DFE882190}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BEAFF67-2CCA-4684-B592-BC512445BE5C} = {C1410B2E-55AE-44F6-AABA-E21E83CE5305}
+		{5C5630A3-F487-439E-A790-20E3FDDD2880} = {C1410B2E-55AE-44F6-AABA-E21E83CE5305}
+		{957A78B3-6732-43C1-9A63-F40A4D09D935} = {0230230E-79BC-431F-AD81-46805EC982A1}
+		{7F9D618A-5D87-4F8F-A04F-A45A7E1C2F02} = {0230230E-79BC-431F-AD81-46805EC982A1}
+		{BF83297E-9C9B-4146-85A7-BB8DFE882190} = {EA4B66AF-C3A7-48F9-B4D0-60A996DF4CAB}
+	EndGlobalSection
+EndGlobal
